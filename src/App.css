@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  margin: auto;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input {
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+  height: 50px;
+  width: 200px;
+  margin: 10px;
+  border: none;
+}
+
+.result {
+  font-size: 20px;
+  color: white;
+  border: none;
+  outline: none;
+  background: #000000;
+  opacity: 0.4;
+}
