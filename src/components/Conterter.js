@@ -10,12 +10,11 @@ export default function Converter() {
         let result;
         if (value.length <= 7 || value.length > 7) {
             !value ? setHex("#") : convert(value);
-            setTimeout(() => setRgb('Ошибка!'), 1000)
-            
+            setRgb('Ошибка')
         } 
         if (value.length === 7) {
                 result = convert(value);
-                setTimeout(() => setRgb(result), 1000);
+                setRgb(result)
         }
     };
     return (
